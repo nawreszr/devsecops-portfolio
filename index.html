@@ -2,36 +2,80 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mini CV - Votre Nom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nawres Zarrouki | DevSecOps Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="cv">
-    <header>
-      <h1>Votre Nom</h1>
-      <p class="role">Étudiant(e) ingénieur · DevSecOps</p>
-      <button id="theme" aria-label="Changer de thème">🌓</button>
-    </header>
+  <header id="about">
+    <button id="theme" aria-label="Changer de thème">🌓</button>
+    <h1>Nawres Zarrouki</h1>
+    <p>Développeuse en informatique | DevSecOps</p>
+  </header>
+
+  <main>
     <section>
       <h2>À propos</h2>
-      <p>Passionné(e) par l'automatisation, les conteneurs et la sécurité des chaînes CI/CD.</p>
+      <p>
+        Passionnée par l'automatisation, la conteneurisation
+        et la sécurité des chaînes CI/CD, je développe mes
+        compétences en DevOps et en administration Linux.
+      </p>
     </section>
-    <section>
+
+    <section id="skills">
       <h2>Compétences</h2>
-      <ul class="tags">
-        <li>Linux</li><li>Git</li><li>Docker</li><li>Jenkins</li><li>HTML/CSS/JS</li>
-      </ul>
+      <div class="skills">
+        <span>Linux</span>
+        <span>Git / GitHub</span>
+        <span>Docker</span>
+        <span>Jenkins</span>
+        <span>HTML / CSS / JavaScript</span>
+      </div>
     </section>
-    <section>
+
+    <section id="devsecops">
+      <h2>DevSecOps Skills</h2>
+      <div class="skills" id="tools"></div>
+    </section>
+
+    <section id="experience">
       <h2>Expérience</h2>
-      <p><strong>Projet académique (2026)</strong> : mise en place d'une VM Ubuntu avec SSH sécurisé, Docker et Jenkins.</p>
+      <p>
+        <strong>Projet académique — 2026</strong><br>
+        Configuration d'une VM Ubuntu, accès SSH sécurisé,
+        installation de Docker et découverte de Jenkins.
+      </p>
     </section>
-    <section>
+
+    <section id="projects">
+      <h2>Projets</h2>
+      <div class="projects" id="project-list"></div>
+    </section>
+
+    <section id="contact">
       <h2>Contact</h2>
-      <p>vous@mail.com · github.com/votre-pseudo</p>
+      <p>
+        Email :
+        <a href="mailto:nawreszarouki40@gmail.com">
+          nawreszarouki40@gmail.com
+        </a>
+      </p>
+      <p>
+        GitHub :
+        <a href="https://github.com/nawreszr"
+           target="_blank" rel="noopener noreferrer">
+          github.com/nawreszr
+        </a>
+      </p>
     </section>
   </main>
+
+  <footer>
+    <p>© 2026 Nawres Zarrouki — DevSecOps Portfolio</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
+```
